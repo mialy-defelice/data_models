@@ -31,7 +31,7 @@
             "rdfs:label": "Resource",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:IndividualResource"
+                    "@id": "bts:Thing"
                 }
             ],
             "schema:isPartOf": {
@@ -693,23 +693,6 @@
                     "@id": "bts:animalModelOfManifestation"
                 }
             ],
-            "sms:validationRules": []
-        },
-        {
-            "@id": "bts:IndividualResource",
-            "@type": "rdfs:Class",
-            "rdfs:comment": "TBD",
-            "rdfs:label": "IndividualResource",
-            "rdfs:subClassOf": [
-                {
-                    "@id": "bts:Thing"
-                }
-            ],
-            "schema:isPartOf": {
-                "@id": "http://schema.biothings.io"
-            },
-            "sms:displayName": "individualResource",
-            "sms:required": "sms:false",
             "sms:validationRules": []
         },
         {
